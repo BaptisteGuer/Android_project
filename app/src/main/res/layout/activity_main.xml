@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity"
+    android:background="@drawable/fond_ecran">
+
+    <ImageView
+        android:id="@+id/param"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/parameters" />
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_eseo"
+        android:contentDescription="@string/logo_eseo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        />
+
+    <Button
+        android:id="@+id/go_to_locate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/locate_me"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/reclyclerview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    <Button
+        android:id="@+id/reclyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recycler_text"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/go_to_locate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/map_eseo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/map_eseo"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/purple_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/link_eseo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link_eseo"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/purple_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="5dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

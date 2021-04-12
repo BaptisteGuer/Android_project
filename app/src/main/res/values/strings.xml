@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name" translatable="false">FirstApplication</string>
+    <string name="button">BONJOUR ESEO</string>
+    <string name="logo_eseo">Logo de l\'eseo</string>
+    <string name="toastHello">Bonjour ESEO</string>
+    <string name="orientation">Portrait</string>
+    <string name="your_message">Test material dialog</string>
+    <string name="param_message">Voulez-vous poursuivre vers les paramètres du téléphone ?</string>
+    <string name="localisation_message">Voulez-vous poursuivre vers la localisation de l\'ESEO ?</string>
+    <string name="link_message">Voulez-vous poursuivre vers le site de l\'ESEO ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="nomPrenom" translatable="false">Baptiste GUERIN</string>
+    <string name="map_eseo">Localiser l\'ESEO</string>
+    <string name="link_eseo">Site de l\'ESEO</string>
+    <string name="parameters">paramètres</string>
+    <string name="locate_me">Me localiser</string>
+    <string name="ma_localisation">Ma localisation</string>
+    <string name="localisation_title">Vous localiser</string>
+    <string name="my_localisation_message">Il est nécessaire d\'accepter de localiser votre matériel pour pouvoir continuer. Voulez-vous continuer ?</string>
+    <string name="localisation_text">Vous êtes localiser ici :</string>
+    <string name="localisation_failure">Vous n\'êtes actuellement pas localisé</string>
+    <string name="recycler_text">Recycler</string>
+    <string name="beer">Bière</string>
+    <string name="your_entry">Vous avez entré =></string>
+</resources>

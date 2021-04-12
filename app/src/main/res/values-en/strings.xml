@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button">WELCOME ESEO</string>
+    <string name="logo_eseo">ESEO\'s logo</string>
+    <string name="toastHello">Welcome ESEO</string>
+    <string name="orientation">Portrait</string>
+    <string name="your_message">Test of material dialog</string>
+    <string name="param_message">Let\'s go to parameters ?</string>
+    <string name="localisation_message">Let\'s go to map ?</string>
+    <string name="link_message">Let\'s go to ESEO website ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="map_eseo">Locate ESEO</string>
+    <string name="link_eseo">ESEO website</string>
+    <string name="parameters">parameters</string>
+</resources>
